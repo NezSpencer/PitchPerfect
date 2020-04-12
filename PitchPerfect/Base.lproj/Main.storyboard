@@ -164,13 +164,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="63H-3a-L2p"/>
                     <connections>
-                        <outlet property="echoButton" destination="fbc-jj-E6o" id="eSB-lF-6kF"/>
-                        <outlet property="fastButton" destination="pK4-iY-d5h" id="bXM-FN-WyO"/>
-                        <outlet property="highPitchButton" destination="X6d-Hu-7Gn" id="Omy-xt-jbb"/>
-                        <outlet property="lowPitchButton" destination="yk2-EA-4ET" id="afi-Mx-gPe"/>
-                        <outlet property="reverbButton" destination="erW-Qe-heU" id="4Km-vV-fLb"/>
-                        <outlet property="slowButton" destination="S6S-KT-ZF2" id="B9Q-Da-8lu"/>
-                        <outlet property="stopButton" destination="T5p-9C-dJg" id="p4L-eL-WH7"/>
+                        <outlet property="chipmunkButton" destination="X6d-Hu-7Gn" id="6xP-0O-W9E"/>
+                        <outlet property="echoButton" destination="fbc-jj-E6o" id="Dm2-t3-iT8"/>
+                        <outlet property="rabbitButton" destination="pK4-iY-d5h" id="ajG-li-3OB"/>
+                        <outlet property="reverbButton" destination="erW-Qe-heU" id="R8h-yF-eWp"/>
+                        <outlet property="snailButton" destination="S6S-KT-ZF2" id="XSs-8R-Lim"/>
+                        <outlet property="stopButton" destination="T5p-9C-dJg" id="QzI-Oa-Del"/>
+                        <outlet property="vaderButton" destination="yk2-EA-4ET" id="37e-4y-6kQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wda-jI-QNM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
