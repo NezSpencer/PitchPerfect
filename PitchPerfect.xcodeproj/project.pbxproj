@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D274D8724444DD7000E3AE3 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D274D8624444DD7000E3AE3 /* PlaySoundsViewController+Audio.swift */; };
 		6DCFC8F32431D25700FE6EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFC8F22431D25700FE6EFC /* AppDelegate.swift */; };
 		6DCFC8F52431D25700FE6EFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFC8F42431D25700FE6EFC /* SceneDelegate.swift */; };
 		6DCFC8F72431D25700FE6EFC /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFC8F62431D25700FE6EFC /* RecordSoundsViewController.swift */; };
@@ -14,10 +15,14 @@
 		6DCFC8FC2431D25900FE6EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCFC8FB2431D25900FE6EFC /* Assets.xcassets */; };
 		6DCFC8FF2431D25900FE6EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCFC8FD2431D25900FE6EFC /* LaunchScreen.storyboard */; };
 		6DCFC9082433F69900FE6EFC /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFC9072433F69900FE6EFC /* PlaySoundsViewController.swift */; };
-		6DCFC90C2435436300FE6EFC /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFC90B2435436300FE6EFC /* PlaySoundsViewController+Audio.swift */; };
+		E9A7A110308266654A6F2B02 /* Pods_PitchPerfect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2D7C3BF29223CC40DCCFE0 /* Pods_PitchPerfect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20B5902C75440D42C6041758 /* Pods-PitchPerfect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfect.release.xcconfig"; path = "Target Support Files/Pods-PitchPerfect/Pods-PitchPerfect.release.xcconfig"; sourceTree = "<group>"; };
+		2C2D7C3BF29223CC40DCCFE0 /* Pods_PitchPerfect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PitchPerfect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		652B3522A703B285D1EAFC07 /* Pods-PitchPerfect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfect.debug.xcconfig"; path = "Target Support Files/Pods-PitchPerfect/Pods-PitchPerfect.debug.xcconfig"; sourceTree = "<group>"; };
+		6D274D8624444DD7000E3AE3 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		6DCFC8EF2431D25700FE6EFC /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DCFC8F22431D25700FE6EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DCFC8F42431D25700FE6EFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +32,6 @@
 		6DCFC8FE2431D25900FE6EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DCFC9002431D25900FE6EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DCFC9072433F69900FE6EFC /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		6DCFC90B2435436300FE6EFC /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PlaySoundsViewController+Audio.swift"; path = "../../../../../Downloads/PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A7A110308266654A6F2B02 /* Pods_PitchPerfect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,8 @@
 			children = (
 				6DCFC8F12431D25700FE6EFC /* PitchPerfect */,
 				6DCFC8F02431D25700FE6EFC /* Products */,
+				A43DB4B4A8CFBD9785F77B75 /* Pods */,
+				FF869D0A1777BAA28B4196B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,7 @@
 		6DCFC8F12431D25700FE6EFC /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				6D274D8624444DD7000E3AE3 /* PlaySoundsViewController+Audio.swift */,
 				6DCFC8F22431D25700FE6EFC /* AppDelegate.swift */,
 				6DCFC8F42431D25700FE6EFC /* SceneDelegate.swift */,
 				6DCFC8F62431D25700FE6EFC /* RecordSoundsViewController.swift */,
@@ -68,9 +76,25 @@
 				6DCFC8FD2431D25900FE6EFC /* LaunchScreen.storyboard */,
 				6DCFC9002431D25900FE6EFC /* Info.plist */,
 				6DCFC9072433F69900FE6EFC /* PlaySoundsViewController.swift */,
-				6DCFC90B2435436300FE6EFC /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = PitchPerfect;
+			sourceTree = "<group>";
+		};
+		A43DB4B4A8CFBD9785F77B75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				652B3522A703B285D1EAFC07 /* Pods-PitchPerfect.debug.xcconfig */,
+				20B5902C75440D42C6041758 /* Pods-PitchPerfect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF869D0A1777BAA28B4196B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D7C3BF29223CC40DCCFE0 /* Pods_PitchPerfect.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +104,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DCFC9032431D25900FE6EFC /* Build configuration list for PBXNativeTarget "PitchPerfect" */;
 			buildPhases = (
+				F687CA439C2D199247699769 /* [CP] Check Pods Manifest.lock */,
 				6DCFC8EB2431D25700FE6EFC /* Sources */,
 				6DCFC8EC2431D25700FE6EFC /* Frameworks */,
 				6DCFC8ED2431D25700FE6EFC /* Resources */,
@@ -139,12 +164,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F687CA439C2D199247699769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PitchPerfect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DCFC8EB2431D25700FE6EFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DCFC90C2435436300FE6EFC /* PlaySoundsViewController+Audio.swift in Sources */,
+				6D274D8724444DD7000E3AE3 /* PlaySoundsViewController+Audio.swift in Sources */,
 				6DCFC8F72431D25700FE6EFC /* RecordSoundsViewController.swift in Sources */,
 				6DCFC8F32431D25700FE6EFC /* AppDelegate.swift in Sources */,
 				6DCFC9082433F69900FE6EFC /* PlaySoundsViewController.swift in Sources */,
@@ -290,6 +340,7 @@
 		};
 		6DCFC9042431D25900FE6EFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652B3522A703B285D1EAFC07 /* Pods-PitchPerfect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,6 +359,7 @@
 		};
 		6DCFC9052431D25900FE6EFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B5902C75440D42C6041758 /* Pods-PitchPerfect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
